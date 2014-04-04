@@ -2,3 +2,96 @@ bazydanych
 ==========
 https://pe.ug.edu.pl/mdl1/course/enrol.php?id=1660
 pass: encja14
+
+
+
+Należy indywidualnie wybrać (ustalić z prowadzącym) temat uproszczonego projektu bazy danych.
+Obowiązujący system zarządzania bazą danych: MS SQL Server 2008
+
+Część 1 [5 pkt]
+
+    Dla wybranego tematu projektu zaprojektuj znormalizowaną bazę danych.
+    Projekt bazy danych powinien zawierać co najmniej 10 encji.
+    Należy przesłać plik pdf z krótkim opisem projektu i diagramem ERD wykonanym w notacji Martina.
+    Dodatkowo na najbliższe laboratoria, po upłynięciu terminu oddania zadania projektowego, należy przynieść wydruk przesłanego rozwiązania.
+
+Część 2 [5 pkt]
+
+    Napisać skrypt SQL, który generuje strukturę bazy danych.
+    Szczególną uwagę zwróć na ograniczenia tabel i kolumn oraz klucze główne i obce.
+    Ponadto do każdej utworzonej tabeli dodaj co najmniej 5 rekordów.
+
+Część 3 [10 pkt]
+
+    Oprogramuj bazę danych, czyli utwórz:
+
+        1 widok (złączenie + having) [1 pkt],
+        2 funkcje [2 pkt],
+        2 procedury [2 pkt],
+        4 wyzwalacze [4 pkt]
+        1 tabele przestawne (instrukcja pivot) [1 pkt]
+
+    Napisz najpierw co dany obiekt będzie robił, a dopiero potem go zdefiniuj. Na końcu sprawdź działania zdefiniowanego obiektu (brak sprawdzenia = -0,5pkt za przykład).
+    Stopień trudności rozwiązań ma wpływ na ocenę (trywialne rozwiązanie = -0,5 pkt za przykład).
+    Użyj co najmniej raz w powyższych rozwiązaniach każdej z konstrukcji a) IF EXISTS, b) IF-ELSE, c) CASE, d) WHILE, e) kursor, za każdy brak -0,5 pkt.
+    Prześlij plik SQL z rozwiązaniem zadań z części 2 i 3.
+
+Stwierdzony plagiat = -20pkt "nagrody"!
+
+
+
+Skopiuj poniższe komentarze i uzupełnij rozwiązaniami.
+Proszę zachować poniższą kolejność - ułatwi mi to sprawdzanie.
+Nieprzestrzeganie kolejności = -2 pkt "nagrody".
+Plik SQL:
+
+
+--Imię i nazwisko:
+--Numer indeksu:
+--Temat bazy danych:
+
+--1) Usuwamy starą strukturę bazy danych i wszystkie niepotrzebne obiekty
+
+--2) Tworzymy strukturę bazy danych
+
+--3) Dodajemy przykładowe rekordy
+
+--4a) Tworzymy widok
+
+--4b) Sprawdzenie, że widok działa
+
+--5a) Tworzymy funkcję 1
+
+--5b) Sprawdzenie, że funkcja 1 działa
+
+--6a) Tworzymy funkcję 2
+
+--6b) Sprawdzenie, że funkcja 2 działa
+
+--7a) Tworzymy procedurę 1
+
+--7b) Sprawdzenie, że procedura 1 działa
+
+--8a) Tworzymy procedurę 2
+
+--8b) Sprawdzenie, że procedura 2 działa
+
+--9a) Tworzymy wyzwalacz 1
+
+--9b) Sprawdzenie, że wyzwalacz 1 działa
+
+--10a) Tworzymy wyzwalacz 2
+
+--10b) Sprawdzenie, że wyzwalacz 2 działa
+
+--11a) Tworzymy wyzwalacz 3
+
+--11b) Sprawdzenie, że wyzwalacz 3 działa
+
+--12a) Tworzymy wyzwalacz 4
+
+--12b) Sprawdzenie, że wyzwalacz 4 działa
+
+--13a) Tworzymy tabelę przestawną
+
+--13b) Sprawdzenie, że tabela przestawna działa
